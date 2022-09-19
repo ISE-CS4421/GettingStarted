@@ -19,7 +19,6 @@ public class GettingStarted {
     // Have a look at the example methods below to see what you need to use to output to the console.
     public static void helloWorld() {
         // FILL IN THE blanks
-        System.out.print("Hello World!");
     }
     
     // Exercise 2: In the below exercise, we are going to look at some of the main different types of variables
