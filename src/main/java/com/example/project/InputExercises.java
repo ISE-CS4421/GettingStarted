@@ -35,7 +35,6 @@ public class InputExercises {
     public static void guessTheInput(int number){
         // FILL IN THE BLANKS
 
-        }
     }
     
     // Exercise 3c: In this exercise, we will be taking a csv file.
