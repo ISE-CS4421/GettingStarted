@@ -38,7 +38,7 @@ public class GettingStartedTest {
     @Test
     void testHelloWorld() {
         GettingStarted.helloWorld();   
-        assertEquals("Hello World!", outContent.toString());
+        assertEquals("Hello World!" + System.lineSeparator(), outContent.toString());
 
 
     }
