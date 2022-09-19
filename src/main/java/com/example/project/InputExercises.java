@@ -1,5 +1,6 @@
 package com.example.project;
 
+import java.util.Scanner;
 
 /* 
  Module: CS4421 (ISE)
@@ -15,15 +16,14 @@ package com.example.project;
 public class InputExercises {
     // Exercise 3a: In this Exercise, we will use the Scanner class to take input from the console.
     // For each of the variables initialised, you will ask the user to provide the given details(i.e, print "What is your name" to the console)
-    // and then capture that detail through the use of a Scanner object.
-    // Expected output format: "Your name is: John, you are 30 years old and your favourite colour is: green
+    // and then capture that detail through the use of a Scanner object and the detail out to the console in the expected format below.
+    // Expected output format: "Your name is: John, you are 30 years old and your favourite colour is: green"
     // Util: https://www.w3schools.com/java/java_user_input.asp
-    public static String readConsoleInput(){
-        int age = 0; 
+    public static void readConsoleInput(){
         String name = ""; 
+        String age = ""; 
         String favouriteColour = "";
         // FILL IN THE BLANKS
-        return "";
     }
     
     // Exercise 3b: In this exercise, you will allow the user to guess what the value of number is.
