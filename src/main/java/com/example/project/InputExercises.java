@@ -34,8 +34,7 @@ public class InputExercises {
     // Constraints: 0 >= number <= 100 
     public static void guessTheInput(int number){
         // FILL IN THE BLANKS
-        for(int i = 0; i < 5; i++){
-            
+
         }
     }
     
