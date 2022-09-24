@@ -11,7 +11,8 @@ Primary Authors
     PhD researcher at Confirm Centre@UL
 * __[Dr. Salim Saay](https://github.com/saaysalim)__
     Lecturer at University of Limerick
-    
+
+
 Acknowledgements
 ===============
 * __[Prof. Tiziana Margaria](https://www.linkedin.com/in/tiziana-margaria-9044a12/)__
@@ -19,4 +20,5 @@ Acknowledgements
     
 References
 ===============
+
 [1] https://www.software-engineering.ie/

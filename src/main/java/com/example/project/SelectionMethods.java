@@ -1,5 +1,16 @@
 package com.example.project;
 
+/* 
+ Module: CS4421 (ISE)
+ Lecturer: Dr. Salim Saay
+ Teaching Assistants: Adam J. Doherty & Ivan Guevara
+*/
+
+/*
+ * In this exercise you will fill in the blanks 
+ */
+
+
 public class SelectionMethods {
 
     // Exercise 1: Given a input sentence, if the length of the string is longer than the input limit
