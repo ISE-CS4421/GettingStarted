@@ -5,7 +5,8 @@ import java.io.PrintStream;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-
+import org.junit.jupiter.api.TestInstance;
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public abstract class AbstractTestingImp {
     
 

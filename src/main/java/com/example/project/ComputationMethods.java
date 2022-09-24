@@ -1,5 +1,16 @@
 package com.example.project;
 
+/* 
+ Module: CS4421 (ISE)
+ Lecturer: Dr. Salim Saay
+ Teaching Assistants: Adam J. Doherty & Ivan Guevara
+*/
+
+/*
+ * In this exercise you will fill in the blanks 
+ */
+
+
 public class ComputationMethods {
 
     // Exercise 1: Given a side of a square, return the area
