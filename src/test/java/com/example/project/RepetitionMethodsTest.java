@@ -23,7 +23,19 @@ public class RepetitionMethodsTest extends AbstractTestingImp{
 
     @Test
     void testInputPrinting() {
-        
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        PrintStream printStream = new PrintStream(baos);
+        String userInput = String.format("Howdy!%sMy Name is John%This is some test input%send%s",
+        System.lineSeparator(),
+        System.lineSeparator(), 
+        System.lineSeparator(), 
+        System.lineSeparator());
+        ByteArrayInputStream bais = new ByteArrayInputStream(userInput.getBytes());
+        System.setIn(bais);
+        RepetitionMethods.inputPrinting();
+        String outputText[] = baos.toString().split(System.lineSeparator());
+        assertEquals("What is your input?"+ System.lineSeparator(), outputText[0]);
+        assertEquals("Exiting..."+ System.lineSeparator(), outputText[outputText.length - 1]);
     }
 
     @Test
@@ -61,12 +73,19 @@ public class RepetitionMethodsTest extends AbstractTestingImp{
 
     @Test
     void testPrintQuanity() {
-
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        PrintStream printStream = new PrintStream(baos);
+        System.setOut(printStream);
+        RepetitionMethods.printQuanity(5);
+        String outputText[] = baos.toString().split(System.lineSeparator());
+        assertEquals("Inside a Loop!", outputText[outputText.length - 1]);
+        assertEquals(5, (outputText.length-1));
     }
 
     @Test
     void testSumNatureNumbers() {
-
+        assertEquals(5050, RepetitionMethods.sumNatureNumbers(100));
+        assertEquals(55, RepetitionMethods.sumNatureNumbers(10));
     }
 
     @Test
