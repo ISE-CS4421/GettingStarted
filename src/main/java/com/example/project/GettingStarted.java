@@ -17,10 +17,18 @@ public class GettingStarted {
     // below in the main method we would have to call this method by typing the method name below like helloWorld();
     // Try this below by uncommenting the test method below to see how this works
     public static void main(String[] args){
+        // Your code goes here!
+
+
         // Uncomment(remove the two forwardslashes) the below line to see how to call a the test method.
         // testingMethod();
+
         // Uncomment the below to see how to pass a parameter to a method
         // testingMethodWithParams(5); 
+
+        // Uncomment the below two lines to see how we return values from methods and then print them out!
+        // String returnValue = testingMethodReturningValue();
+        // System.out.println(returnValue);
     }
     
 
@@ -77,5 +85,10 @@ public class GettingStarted {
     public static void testingMethodWithParams(int number){
         System.out.println("The parameter passed into this method can be accessed like this.");
         System.out.println("The value of the parameter passed in is: " + number);
+    }
+    public static String testingMethodReturningValue(){
+        System.out.println("We can return a value through the use of a return statement.");
+        System.out.println("The data type to be returned will have to match the method signature.");
+        return "In this instance, the method signature is String!";
     }
 }

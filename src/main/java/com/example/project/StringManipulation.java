@@ -8,6 +8,9 @@ package com.example.project;
 
 /*
  * In this exercise you will fill in the blanks 
+ * In the last set of exercises, there was a main method already created for you.
+ * You'll need on in this file as well to test out your methods.
+ * Look to "GettingStarted.java" to see the example of a main method.
  */
 
 
