@@ -6,11 +6,17 @@ Here you will find all the exercises and content regarding CS4421. You are free 
 # Student Instructions
 
 For this set of exercises, we are going to be working with files in the src/main/java/com/example/project/ directory.
-The goal of this assignment is to get you used to using utilises like GitHub, version controller, and being getting an understanding of Java.
+The goal of this assignment is to get you used to using utilises like GitHub, version controll, and begin getting an understanding of Java.
+In this repo, you'll find two main paths, main and test. The main folder will contain all of the code that we'll be working on and the test directory is where you'll find the automated tests we run to check the code. You won't need to do anything with the tests, but if you are interested in seeing how we do the automated testing, have a look in that test folder. If you are interested in running the automated tests on your local computer, you'll need a java tool called Gradle, link below for installation and reference material.
+
+ * [Gradle Installation](https://www.youtube.com/watch?v=h6Figshq6_I&ab_channel=AutomationStepbyStep)
+ * [Gradle Documentation](https://docs.gradle.org/current/userguide/userguide.html)
+ 
+**NOTE**: Do not commit any changes to the test directory. When you create a pull request to merge your code, it will show up and we'll ask you to revert those changes.
 
 ## Requirements
 
-You will need to make sure that you have completed all the requirements from the installation sheet prodived on moodle.
+You will need to make sure that you have completed all the requirements from the installation sheet provided on moodle.
 
 
 ## Directory Structure
@@ -22,11 +28,22 @@ src
 │       └───com
 │           └───example
 │               └───project
+│                   ├───GettingStarted.java
+│                   ├───ComputationMethods.java
+│                   ├───SelectionMethods.java
+│                   ├───StringManipulation.java
+│                   └───RepetitionMethods.java
 └───test
     └───java
         └───com
             └───example
                 └───project
+                    ├───AbstractTestingImp.java
+                    ├───GettingStartedTest.java
+                    ├───ComputationMethodsTest.java
+                    ├───SelectionMethodsTest.java
+                    ├───StringManipulationTest.java
+                    └───RepetitionMethodsTest.java
 ```
 ## Day One Exercise
 
